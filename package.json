@@ -23,12 +23,17 @@
   },
   "homepage": "https://github.com/hankchizljaw/thanksforthereply.com#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^3.1.6",
     "goron": "^0.1.1",
     "uglifycss": "0.0.29"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
     "watch": "^1.0.2"
-  }
+  },
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11.14.0"
+  },
+  "packageManager": "npm@11.14.0"
 }
